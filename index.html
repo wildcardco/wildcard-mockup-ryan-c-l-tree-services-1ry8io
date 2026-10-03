@@ -6,114 +6,114 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>C&amp;L Tree Services | Tree Removal &amp; Storm Cleanup in Crete, IL</title>
 <meta name="description" content="C&amp;L Tree Services: local tree removal, trimming, stump grinding, storm damage cleanup and lot clearing in Crete, IL and the south Chicago suburbs. Call 1-708-834-3388 for a free estimate.">
-<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;600;700&family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Lora:wght@500;600;700&family=Nunito+Sans:wght@400;600;700;800&display=swap" rel="stylesheet">
 <style>
   :root{
-    --bark:#2e2420;
-    --green:#2f4d33;
-    --orange:#ff6a13;
-    --kraft:#c9a77a;
-    --ink:#1c1512;
-    --light:#f4efe6;
+    --forest:#24402c;
+    --forest-dark:#1a2f20;
+    --leaf:#4f7a46;
+    --sage:#e7ede0;
+    --cream:#faf8f2;
+    --wood:#8a6a48;
+    --amber:#d9932f;
+    --amber-dark:#bf7d1f;
+    --ink:#24291f;
+    --muted:#5b6354;
   }
-  *{box-sizing:border-box;margin:0;padding:0;border-radius:0}
-  html{scroll-behavior:auto}
-  body{font-family:"PT Sans",system-ui,-apple-system,"Segoe UI",sans-serif;font-size:1.0625rem;line-height:1.6;color:var(--ink);background:var(--bark)}
-  h1,h2,h3,.stencil{font-family:"Oswald","Arial Narrow",sans-serif;text-transform:uppercase;letter-spacing:.08em;font-weight:700;line-height:1.05}
+  *{box-sizing:border-box;margin:0;padding:0}
+  html{scroll-behavior:smooth}
+  body{font-family:"Nunito Sans",system-ui,-apple-system,"Segoe UI",sans-serif;font-size:1.0625rem;line-height:1.7;color:var(--ink);background:var(--cream)}
+  h1,h2,h3{font-family:"Lora",Georgia,serif;font-weight:700;line-height:1.15;letter-spacing:0}
   a{color:inherit}
   img{display:block;max-width:100%}
-  .wrap{max-width:1180px;margin:0 auto;padding:0 1.25rem}
+  .wrap{max-width:1160px;margin:0 auto;padding:0 1.25rem}
 
   /* Header */
-  .topbar{background:var(--bark);color:var(--light);border-bottom:5px solid var(--orange)}
-  .topbar .wrap{display:flex;justify-content:space-between;align-items:center;gap:1rem;padding-top:.7rem;padding-bottom:.7rem}
-  .topbar .tag{font-family:"Oswald",sans-serif;text-transform:uppercase;letter-spacing:.14em;font-size:.85rem;color:var(--kraft)}
-  .topbar a.call{font-family:"Oswald",sans-serif;font-weight:700;letter-spacing:.08em;color:var(--orange);text-decoration:none;font-size:1.05rem}
-  .topbar a.call:focus-visible,.btn:focus-visible{outline:3px solid var(--light);outline-offset:3px}
+  .topbar{position:absolute;top:0;left:0;right:0;z-index:5;color:#fff}
+  .topbar .wrap{display:flex;justify-content:space-between;align-items:center;gap:1rem;padding-top:1rem;padding-bottom:1rem}
+  .topbar .tag{font-weight:600;font-size:.92rem;opacity:.92}
+  .topbar a.call{font-weight:800;color:#fff;text-decoration:none;font-size:1rem;background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.35);padding:.45rem .95rem;border-radius:999px;backdrop-filter:blur(4px)}
+  .topbar a.call:hover{background:rgba(255,255,255,.25)}
+  .topbar a.call:focus-visible,.btn:focus-visible,a:focus-visible{outline:3px solid var(--amber);outline-offset:3px}
 
   /* Hero */
-  .hero{position:relative;min-height:100vh;min-height:100svh;background:var(--bark);color:var(--light);display:flex;flex-direction:column;overflow:hidden}
-  .hero-photo{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;background:#3a2e28}
-  .hero-name{position:relative;z-index:2;margin:1.25rem 0 0 1.25rem;align-self:flex-start;background:var(--kraft);color:var(--bark);padding:1rem 1.25rem 1.1rem;border-left:8px solid var(--orange);max-width:calc(100% - 2.5rem)}
-  .hero-name h1{font-size:clamp(2.6rem,11vw,6.2rem);letter-spacing:.06em}
-  .hero-name h1 span{display:block}
-  .hero-name p{font-family:"Oswald",sans-serif;text-transform:uppercase;letter-spacing:.18em;font-size:.9rem;font-weight:600;margin-top:.5rem}
-  .hero-bottom{position:relative;z-index:2;margin-top:auto}
-  .idbar{background:var(--bark);border-top:6px solid var(--orange);border-bottom:6px solid var(--orange);padding:.9rem 1.25rem}
-  .idbar small{display:block;font-family:"Oswald",sans-serif;text-transform:uppercase;letter-spacing:.2em;color:var(--kraft);font-size:.85rem;margin-bottom:.15rem}
-  .idbar a{display:block;font-family:"Oswald",sans-serif;font-weight:700;color:var(--orange);text-decoration:none;font-size:clamp(2.4rem,10.5vw,8.5rem);letter-spacing:.06em;line-height:1;white-space:nowrap}
-  .hero-cta{background:var(--bark);padding:1.25rem 1.25rem 1.6rem;display:flex;flex-wrap:wrap;gap:1rem 1.5rem;align-items:center}
-  .hero-cta p{color:var(--light);max-width:34rem}
-  .btn{display:inline-block;font-family:"Oswald",sans-serif;font-weight:700;text-transform:uppercase;letter-spacing:.1em;font-size:1.2rem;padding:1rem 1.6rem;background:var(--orange);color:var(--bark);text-decoration:none;border:3px solid var(--orange)}
-  .btn:hover{background:var(--light);color:var(--bark);border-color:var(--light)}
+  .hero{position:relative;min-height:92vh;min-height:92svh;color:#fff;display:flex;align-items:flex-end;overflow:hidden;background:var(--forest-dark)}
+  .hero-photo{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+  .hero::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(20,35,24,.45) 0%,rgba(20,35,24,.2) 35%,rgba(20,35,24,.85) 100%)}
+  .hero-inner{position:relative;z-index:2;width:100%;padding:7rem 0 3.5rem}
+  .hero-name p{font-weight:700;font-size:.95rem;letter-spacing:.04em;color:#e9dcc3;margin-bottom:.8rem}
+  .hero-name h1{font-size:clamp(2.6rem,7vw,4.8rem);max-width:14ch}
+  .hero-name h1 span{display:inline}
+  .hero-cta{margin-top:1.4rem;display:flex;flex-direction:column;gap:1.4rem;align-items:flex-start}
+  .hero-cta p{max-width:36rem;font-size:1.15rem;color:#f1efe7}
+  .hero-actions{display:flex;flex-wrap:wrap;gap:1rem 1.4rem;align-items:center}
+  .hero-actions .phone{color:#fff;font-weight:700;text-decoration:none;font-size:1.15rem}
+  .hero-actions .phone small{display:block;font-weight:600;font-size:.82rem;color:#d8d4c6}
+  .btn{display:inline-block;font-weight:800;font-size:1.05rem;padding:.95rem 1.6rem;background:var(--amber);color:#1f1a10;text-decoration:none;border-radius:999px;box-shadow:0 6px 18px rgba(0,0,0,.18);transition:background .2s,transform .2s}
+  .btn:hover{background:var(--amber-dark);transform:translateY(-1px)}
 
   /* Intro */
-  .intro{background:var(--kraft);color:var(--ink);border-top:6px solid var(--bark);padding:3.5rem 0}
-  .intro .wrap{display:grid;gap:2rem}
-  .intro h2{font-size:clamp(2rem,6vw,3.4rem);color:var(--bark)}
-  .intro p{max-width:40rem}
-  .facts{display:grid;gap:0;border:5px solid var(--bark);background:var(--light)}
-  .facts div{padding:1rem 1.2rem;border-bottom:4px solid var(--bark)}
-  .facts div:last-child{border-bottom:0}
-  .facts b{display:block;font-family:"Oswald",sans-serif;text-transform:uppercase;letter-spacing:.1em;font-size:1.6rem;color:var(--green)}
+  .intro{padding:4.5rem 0}
+  .intro .wrap{display:grid;gap:2.5rem}
+  .eyebrow{display:block;font-weight:800;font-size:.85rem;letter-spacing:.12em;text-transform:uppercase;color:var(--leaf);margin-bottom:.6rem}
+  .intro h2{font-size:clamp(1.9rem,4.5vw,2.8rem);color:var(--forest);margin-bottom:1rem}
+  .intro p{max-width:40rem;color:var(--muted)}
+  .facts{display:grid;gap:1rem}
+  .facts div{padding:1.1rem 1.3rem;background:var(--sage);border-radius:14px;color:var(--muted)}
+  .facts b{display:block;font-family:"Lora",Georgia,serif;font-size:1.35rem;color:var(--forest)}
 
   /* Services */
-  .svc{border-top:6px solid var(--orange)}
-  .svc .wrap{display:grid;gap:2rem;padding-top:3.5rem;padding-bottom:3.5rem;align-items:center}
-  .svc.light{background:var(--kraft);color:var(--ink)}
-  .svc.dark{background:var(--green);color:var(--light)}
-  .svc.bark{background:var(--bark);color:var(--light)}
-  .svc figure{background:var(--bark);border:5px solid var(--bark)}
-  .svc.dark figure{border-color:var(--ink)}
-  .svc img{width:100%;aspect-ratio:4/3;object-fit:cover;background:#3a2e28}
-  .marker{display:inline-block;font-family:"Oswald",sans-serif;text-transform:uppercase;letter-spacing:.2em;font-size:.85rem;font-weight:600;background:var(--orange);color:var(--bark);padding:.2rem .6rem;margin-bottom:.9rem}
-  .svc h2{font-size:clamp(2rem,6.5vw,3.6rem);margin-bottom:1rem}
-  .svc.light h2{color:var(--bark)}
-  .svc p{max-width:36rem;margin-bottom:1rem}
-  .svc ul{list-style:none;margin:0 0 1.4rem}
-  .svc li{padding:.35rem 0 .35rem 1.2rem;position:relative}
-  .svc li::before{content:"";position:absolute;left:0;top:.85em;width:.6rem;height:.6rem;background:var(--orange)}
-  .svc .callline{font-family:"Oswald",sans-serif;font-weight:700;letter-spacing:.08em;font-size:1.4rem;text-decoration:none;color:var(--orange);border-bottom:4px solid var(--orange)}
-  .svc.light .callline{color:var(--bark);border-color:var(--bark)}
+  .svc .wrap{display:grid;gap:2rem;padding-top:4rem;padding-bottom:4rem;align-items:center}
+  .svc.light{background:var(--cream)}
+  .svc.dark{background:var(--sage)}
+  .svc figure{border-radius:18px;overflow:hidden;box-shadow:0 14px 34px rgba(36,64,44,.16)}
+  .svc img{width:100%;aspect-ratio:4/3;object-fit:cover;background:#cfd8c6}
+  .marker{display:block;font-weight:800;font-size:.82rem;letter-spacing:.12em;text-transform:uppercase;color:var(--leaf);margin-bottom:.5rem}
+  .svc h2{font-size:clamp(1.8rem,4vw,2.5rem);color:var(--forest);margin-bottom:.9rem}
+  .svc p{max-width:36rem;margin-bottom:1rem;color:var(--muted)}
+  .svc ul{list-style:none;margin:0 0 1.5rem}
+  .svc li{padding:.3rem 0 .3rem 1.6rem;position:relative}
+  .svc li::before{content:"";position:absolute;left:0;top:.75em;width:.7rem;height:.7rem;background:var(--leaf);border-radius:0 70% 0 70%}
+  .svc .callline{font-weight:800;font-size:1.05rem;text-decoration:none;color:var(--forest);border-bottom:2px solid var(--amber);padding-bottom:2px}
+  .svc .callline:hover{color:var(--leaf)}
 
   /* Why */
-  .why{background:var(--light);color:var(--ink);border-top:6px solid var(--bark);padding:3.5rem 0}
-  .why h2{font-size:clamp(2rem,6vw,3.2rem);color:var(--bark);margin-bottom:1.6rem}
-  .why-grid{display:grid;gap:1rem}
-  .why-grid article{border:4px solid var(--bark);border-top:10px solid var(--green);padding:1.2rem;background:#fff}
-  .why-grid h3{font-size:1.35rem;color:var(--green);margin-bottom:.5rem}
+  .why{background:var(--cream);padding:4.5rem 0}
+  .why h2{font-size:clamp(1.9rem,4.5vw,2.7rem);color:var(--forest);margin-bottom:2rem;text-align:center}
+  .why-grid{display:grid;gap:1.25rem}
+  .why-grid article{padding:1.6rem;background:#fff;border-radius:16px;box-shadow:0 8px 24px rgba(36,64,44,.08);border-top:4px solid var(--leaf)}
+  .why-grid h3{font-size:1.3rem;color:var(--forest);margin-bottom:.5rem}
+  .why-grid p{color:var(--muted)}
 
   /* Contact */
-  .contact{background:var(--bark);color:var(--light);border-top:6px solid var(--orange);padding:3.5rem 0}
+  .contact{background:var(--forest);color:#f1efe7;padding:4.5rem 0}
   .contact .wrap{display:grid;gap:2rem}
-  .contact h2{font-size:clamp(2.2rem,7vw,4rem)}
-  .contact .bigphone{display:block;font-family:"Oswald",sans-serif;font-weight:700;letter-spacing:.06em;font-size:clamp(2.2rem,9vw,5.2rem);color:var(--orange);text-decoration:none;line-height:1;margin:1rem 0 1.4rem}
-  .contact address{font-style:normal;border-left:6px solid var(--kraft);padding-left:1rem}
-  .contact address b{font-family:"Oswald",sans-serif;text-transform:uppercase;letter-spacing:.12em;color:var(--kraft);display:block;margin-bottom:.3rem}
+  .contact h2{font-size:clamp(2rem,5vw,3rem);color:#fff}
+  .contact .bigphone{display:block;font-family:"Lora",Georgia,serif;font-weight:700;font-size:clamp(1.9rem,5vw,3rem);color:#f0c27a;text-decoration:none;line-height:1.1;margin:.8rem 0 1.5rem}
+  .contact address{font-style:normal;background:rgba(255,255,255,.07);border-radius:14px;padding:1.3rem 1.5rem}
+  .contact address b{font-weight:800;font-size:.82rem;letter-spacing:.12em;text-transform:uppercase;color:#bcd2a8;display:block;margin-bottom:.4rem}
 
   /* Footer */
-  footer{background:var(--green);color:var(--light);border-top:6px solid var(--bark);padding:2.5rem 0 1.5rem}
-  footer .wrap{display:grid;gap:1.8rem}
-  footer h3{font-size:1.2rem;color:var(--kraft);margin-bottom:.5rem}
+  footer{background:var(--forest-dark);color:#d9ddd2;padding:3rem 0 1.5rem}
+  footer .wrap{display:grid;gap:2rem}
+  footer h3{font-size:1.15rem;color:#fff;margin-bottom:.6rem}
   footer ul{list-style:none}
   footer li{padding:.15rem 0}
-  footer .fphone{font-family:"Oswald",sans-serif;font-weight:700;letter-spacing:.06em;color:var(--orange);text-decoration:none;font-size:clamp(1.8rem,6vw,2.8rem);line-height:1}
-  .legal{border-top:4px solid var(--bark);padding-top:1rem;font-size:.95rem;display:flex;flex-wrap:wrap;justify-content:space-between;gap:.5rem}
+  footer .fphone{font-family:"Lora",Georgia,serif;font-weight:700;color:#f0c27a;text-decoration:none;font-size:1.6rem;line-height:1.1}
+  footer img{border-radius:12px}
+  .legal{border-top:1px solid rgba(255,255,255,.15);padding-top:1.2rem;font-size:.9rem;display:flex;flex-wrap:wrap;justify-content:space-between;gap:.5rem;color:#a9b0a0}
 
   @media (min-width:800px){
     .wrap{padding:0 2rem}
-    .hero-name{margin:2rem 0 0 2rem}
-    .idbar{padding:1rem 2rem}
-    .hero-cta{padding:1.4rem 2rem 2rem}
-    .intro .wrap{grid-template-columns:1.4fr 1fr;align-items:start}
-    .svc .wrap{grid-template-columns:1fr 1fr;gap:3rem}
+    .intro .wrap{grid-template-columns:1.4fr 1fr;align-items:center;gap:4rem}
+    .svc .wrap{grid-template-columns:1fr 1fr;gap:4rem}
     .svc.flip figure{order:2}
     .why-grid{grid-template-columns:repeat(3,1fr)}
-    .contact .wrap{grid-template-columns:1.3fr 1fr;align-items:end}
-    footer .wrap{grid-template-columns:1fr 1fr 1fr}
+    .contact .wrap{grid-template-columns:1.3fr 1fr;align-items:center}
+    footer .wrap{grid-template-columns:1.3fr 1fr 1fr}
     .legal{grid-column:1/-1}
   }
-  @media (prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}
+  @media (prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}html{scroll-behavior:auto}}
 </style>
 </head>
 <body>
@@ -128,18 +128,19 @@
 <main>
   <section class="hero" aria-label="C&amp;L Tree Services">
     <img class="hero-photo" src="https://pixabay.com/get/g934541d7b8998a1632fe4f4addb70dad2fa773d04318daa2f61ecbb5bc17b4abdb15a7e0ee158b618ff57ba0034ed976c3a268c383df155d2531af4bd7480347_1280.jpg" alt="Large felled oak tree being cut by arborist in residential yard">
-    <div class="hero-name">
-      <h1><span>C&amp;L</span><span>Tree</span><span>Services</span></h1>
-      <p>Removal · Trimming · Stumps · Storm Cleanup</p>
-    </div>
-    <div class="hero-bottom">
-      <div class="idbar">
-        <small>Call the crew direct</small>
-        <a href="tel:+17088343388" aria-label="Call C&amp;L Tree Services at 1-708-834-3388">1-708-834-3388</a>
-      </div>
-      <div class="hero-cta">
-        <a class="btn" href="tel:+17088343388">Call Now — Free Estimate</a>
-        <p>Hands-on tree care for Crete and the south Chicago suburbs. Hazardous tree, storm mess, or an overgrown lot, we show up and get it done.</p>
+    <div class="hero-inner">
+      <div class="wrap">
+        <div class="hero-name">
+          <p>Removal · Trimming · Stumps · Storm Cleanup</p>
+          <h1><span>C&amp;L</span> <span>Tree</span> <span>Services</span></h1>
+        </div>
+        <div class="hero-cta">
+          <p>Hands-on tree care for Crete and the south Chicago suburbs. Hazardous tree, storm mess, or an overgrown lot, we show up and get it done.</p>
+          <div class="hero-actions">
+            <a class="btn" href="tel:+17088343388">Call Now — Free Estimate</a>
+            <a class="phone" href="tel:+17088343388" aria-label="Call C&amp;L Tree Services at 1-708-834-3388"><small>Call the crew direct</small>1-708-834-3388</a>
+          </div>
+        </div>
       </div>
     </div>
   </section>
@@ -147,6 +148,7 @@
   <section class="intro" aria-labelledby="intro-h">
     <div class="wrap">
       <div>
+        <span class="eyebrow">Local tree care in Crete, IL</span>
         <h2 id="intro-h">Your neighbors on Dixie Highway</h2>
         <p>C&amp;L Tree Services is a local, hands-on tree care operation out of Crete, IL. We have built this business on word of mouth, not slick marketing. We know mature trees in established neighborhoods, we answer fast when a storm comes through, and we give homeowners a fair, straight price before any saw starts.</p>
       </div>
@@ -285,7 +287,7 @@
     <div>
       <h3>C&amp;L Tree Services</h3>
       <p>A local, family-run tree crew serving homeowners and property owners around Crete.</p>
-      <img src="https://pixabay.com/get/g934541d7b8998a1632fe4f4addb70dad2fa773d04318daa2f61ecbb5bc17b4abdb15a7e0ee158b618ff57ba0034ed976c3a268c383df155d2531af4bd7480347_1280.jpg" alt="C&amp;L Tree Services crew at work" style="margin-top:1rem;border:4px solid var(--bark);max-width:100%">
+      <img src="https://pixabay.com/get/g934541d7b8998a1632fe4f4addb70dad2fa773d04318daa2f61ecbb5bc17b4abdb15a7e0ee158b618ff57ba0034ed976c3a268c383df155d2531af4bd7480347_1280.jpg" alt="C&amp;L Tree Services crew at work" style="margin-top:1rem;max-width:100%">
     </div>
     <div>
       <h3>Service Area</h3>
